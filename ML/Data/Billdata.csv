@@ -1,0 +1,16 @@
+InvoiceId,CustomerName,NumberSites,ServiceType,Month,Totalcharges
+1234,Planet Fitness,4,Internet,May,300
+8532,Planet Fitness,10,Voice,May,500
+738,ABC,5,Internet,May,1000
+3005,Papa,7,Internet,May,1300
+2757,Papa,8,Voice,May,1650
+2509,And,8,Internet,May,2000
+2261,Land,9,Internet,May,2350
+2013,Land,9,Voice,May,2700
+1517,Jws,10,Internet,May,3400
+1269,Jws,11,Voice,May,3750
+773,MAS,12,Internet,May,4450
+525,MAS,12,Voice,May,4800
+277,Bal,13,Internet,May,5150
+29,Planet Fitness 1,13,Internet,May,5500
+234561,Planet Fitness 1,14,Voice,May,5850

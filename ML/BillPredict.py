@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 import numpy as np 
 
 try:
-        data = pd.read_csv(r'Billdata.csv')
+        data = pd.read_csv(r'Data/Billdata.csv')
 except Exception as e:
         logger.exception(
             "Unable to download training & test CSV, check your internet connection. Error: %s", e
@@ -151,7 +151,7 @@ params={
 
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import r2_score
-print('1')
+
 
 def evaluate_models(X_train, y_train,X_test,y_test,models,param):
         report = {}
@@ -192,7 +192,7 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
         return report
 
 
-print('1')
+
 model_report = evaluate_models(X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test, models=models, param=params)
 
 ## To get best model score from dict
@@ -212,7 +212,7 @@ import pickle
 # create an iterator object with write permission - model.pkl
 with open('Bill_model_pkl', 'wb') as files:
     pickle.dump(best_model, files)
-print('DONE')
+
 # with open('model_pkl' , 'rb') as f:
 #     lr = pickle.load(f)
 # print("checvk")

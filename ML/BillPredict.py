@@ -9,6 +9,9 @@ except Exception as e:
             "Unable to download training & test CSV, check your internet connection. Error: %s", e
         )
 
+columns_to_drop = ['Month']
+data = data.drop(columns=columns_to_drop)
+
 train_set,test_set=train_test_split(data,test_size=0.2,random_state=42)
 
 # Identify numerical columns
@@ -209,8 +212,13 @@ r2_square = r2_score(y_test, predicted)
 print('r2_square',r2_square)
 
 import pickle
+
+# Save the preprocessor and the model
+with open('preprocessor.pkl', 'wb') as f:
+    pickle.dump(preprocessor, f)
+
 # create an iterator object with write permission - model.pkl
-with open('Bill_model_pkl', 'wb') as files:
+with open('Bill_model.pkl', 'wb') as files:
     pickle.dump(best_model, files)
 
 # with open('model_pkl' , 'rb') as f:

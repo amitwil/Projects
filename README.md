@@ -1,4 +1,4 @@
-#Project Details#
+# Project Details
 
 ## GenAI Project
 ### **Q&A application based on TMForum documents:**

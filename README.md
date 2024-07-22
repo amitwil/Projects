@@ -1,7 +1,4 @@
-##### GEN AI / Deep Learning/ ML Projcts
-
-Read ProjectDetails file for the details of all projects
-
+# GenAI Project
 ### **Q&A application based on TMForum documents:**
 Developed a sophisticated Question & Answer (Q&A) application designed to interact with TM Forum documents, providing precise and relevant information to user queries through an intuitive interface. Utilized LangChain and Large Language Models (LLMs) to create a robust Q&A system
 ##### **Model Integration**: Seamlessly integrated diverse TM Forum file formats, ensuring comprehensive coverage and accessibility of documents.
@@ -17,9 +14,7 @@ Developed a sophisticated Question & Answer (Q&A) application designed to intera
 
 # Deep Learning Project
 ### Customer care reviews Sentiment analysis:
-
 Developed a comprehensive sentiment analysis system for customer care reviews, leveraging advanced natural language processing (NLP) techniques and deep learning models to classify sentiments expressed in text data.
-
 ##### **Text Preprocessing**: Applied a series of NLP techniques to preprocess the text data, ensuring it was in an optimal format for model training:
 ######       1. Stopwords Removal: Eliminated common stopwords to reduce noise and focus on the meaningful words in the reviews.
 ######       2. Stemming and Lemmatization: Applied stemming to reduce words to their root forms and lemmatization to convert words to their base or dictionary form, improving the consistency of the text data.
@@ -32,7 +27,6 @@ Developed a comprehensive sentiment analysis system for customer care reviews, l
 # Machine Learning Project
 ### Bill charges Prediction model:
 Designed and developed a predictive model aimed at forecasting the charges on a customer's bill, leveraging machine learning techniques to analyze historical billing data and predict future charges based on key factors (Customer Name, Number of Sites, Type of Service).
-
 ##### **Model Design and Development**: Engineered a predictive model using the Scikit-learn machine learning framework.
 ##### **Algorithm Evaluation**: Explored multiple machine learning algorithms, including Linear Regression, Random Forest, etc. Identified the algorithm with the highest R2 score through comprehensive grid search, ensuring superior predictive accuracy.
 ##### **Performance Evaluation**: Assessed model performance using the R2 score metric and acheived score as 0.997

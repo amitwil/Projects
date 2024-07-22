@@ -14,6 +14,7 @@ Developed a sophisticated Question & Answer (Q&A) application designed to intera
 ![image](https://github.com/user-attachments/assets/8998652e-f9bf-46dd-b321-5bd8a7496f3b)
 
 
+
 ## Deep Learning Project -->
 ### Customer care reviews Sentiment analysis:
 Developed a comprehensive sentiment analysis system for customer care reviews, leveraging advanced natural language processing (NLP) techniques and deep learning models to classify sentiments expressed in text data.
@@ -24,6 +25,7 @@ Developed a comprehensive sentiment analysis system for customer care reviews, l
 ##### **Model Development**: Developed a Long Short-Term Memory (LSTM) model, a type of recurrent neural network (RNN) well-suited for sequence data like text:
 ##### **Model Training**: Trained the LSTM model on the preprocessed text data to learn the patterns and features associated with different sentiments.
 ##### **Model Fine-tuning**: Fine-tuned the model parameters and architecture to improve its performance, achieving a sentiment classification accuracy score of 0.71.
+
 
 
 ## Machine Learning Project -->

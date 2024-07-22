@@ -10,3 +10,6 @@ Developed a sophisticated Question & Answer (Q&A) application designed to intera
 ##### **Prompt Query Handling**: Enabled efficient query input and response display, enhancing user interaction and satisfaction.
 ##### **Vector Database Implementation**: Incorporated FAISS (Facebook AI Similarity Search) to manage the vectorized representations of the documents.
 ##### **LLM Application for Answers**: Employed Meta LLaMA3, an advanced LLM, to generate concise and accurate answers.
+
+#### Architecture diagram: 
+![image.png](attachment:4b51433c-e596-478b-9320-282fbce437af.png)

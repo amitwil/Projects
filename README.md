@@ -12,4 +12,5 @@ Developed a sophisticated Question & Answer (Q&A) application designed to intera
 ##### **LLM Application for Answers**: Employed Meta LLaMA3, an advanced LLM, to generate concise and accurate answers.
 
 #### Architecture diagram: 
-![image.png](attachment:4b51433c-e596-478b-9320-282fbce437af.png)
+![image](https://github.com/user-attachments/assets/6b9c3eac-1425-44d7-80b6-64a547a94d5c)
+

@@ -1,3 +1,5 @@
+##Project Details##
+
 # GenAI Project
 ### **Q&A application based on TMForum documents:**
 Developed a sophisticated Question & Answer (Q&A) application designed to interact with TM Forum documents, providing precise and relevant information to user queries through an intuitive interface. Utilized LangChain and Large Language Models (LLMs) to create a robust Q&A system
